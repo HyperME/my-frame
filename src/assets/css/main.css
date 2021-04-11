@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import "./reset.css";
+@import "./variables.css";
+@import "./utils.css";
+
+/* COMMON */
+.wrapper {
+    width: var(--common-wrapper-width);
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+/* LAYOUT */
+.layout {
+    font-family: var(--main-fontFamily);
+    font-size: var(--main-fontSize);
+    color: var(--main-fontColorDark);
+    line-height: var(--main-lineHeight);
+    min-height: 100vh;
+    position: relative;
+    background-color: var(--layout-bg-light);
+}
+
+.layout.dark {
+    color: var(--main-fontColorLight);
+    background-color: var(--layout-bg-light);
+}
+
+/* PAGE */
+

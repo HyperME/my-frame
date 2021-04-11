@@ -1,0 +1,44 @@
+html, body, p, h1, h2, h3, h4, ul, article, figure{
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*:before, *:after{
+    box-sizing: border-box;
+}
+a,
+svg,
+path,
+.btn,
+button,
+button:before,
+button:after{
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+}
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+ul{
+    list-style: none;
+}
+.btn,
+input,
+textarea,
+button,
+.slick-slide{
+    outline: none;
+}
+
+svg {
+    display: flex;
+}
+select::-ms-expand {
+    display: none;
+}
+textarea {
+    overflow: auto;
+}

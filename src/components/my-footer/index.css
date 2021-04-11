@@ -1,0 +1,5 @@
+.site-footer {
+    padding: 50px 0;
+    background-color: var(--theme-bg-black);
+    color: var(--main-fontColorLight);
+}
