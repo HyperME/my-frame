@@ -23,4 +23,14 @@ module.exports = {
 			{ test: /\.html$/i, loader: 'html-loader', },
 		],
 	},
+	resolve: {
+		alias: {
+			'@src': path.resolve(__dirname, 'src/'),
+			'@lib': path.resolve(__dirname, 'lib/'),
+			'@assets': path.resolve(__dirname, 'src/assets/'),
+			'@components': path.resolve(__dirname, 'src/components/'),
+			'@layouts': path.resolve(__dirname, 'src/lsyouts/'),
+			'@pages': path.resolve(__dirname, 'src/pages/'),
+		},
+	},
 };
